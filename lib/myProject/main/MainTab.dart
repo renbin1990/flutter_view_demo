@@ -10,6 +10,7 @@ class MainTab extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,    //去掉debug图标
       home: Scaffold(
         body: CurrentTab(currentIndex:0),
       ),

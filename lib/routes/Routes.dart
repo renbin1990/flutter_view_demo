@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_view_demo/Study/demoFive/TestFourteen.dart';
+import 'package:flutter_view_demo/Study/demoFive/TestThirteen.dart';
 import 'package:flutter_view_demo/Study/demoFour/TestTen.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/MingMinPage.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/Login.dart';
@@ -8,10 +10,8 @@ import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterThird.dart';
 import 'package:flutter_view_demo/Study/demoThree/TestSeven.dart';
 import 'package:flutter_view_demo/Study/demoFour/TestEleven.dart';
 import 'package:flutter_view_demo/Study/demoFour/TestNine.dart';
-import 'package:flutter_view_demo/Study/demoFour/TestTen.dart';
 import 'package:flutter_view_demo/Study/demoFour/TestTwelve.dart';
 import 'package:flutter_view_demo/Study/demoThree/TestEight.dart';
-import 'package:flutter_view_demo/Study/demoThree/TestSeven.dart';
 import 'package:flutter_view_demo/Study/demoThree/TestSix.dart';
 import 'package:flutter_view_demo/Study/demoTwo/TestFive.dart';
 import 'package:flutter_view_demo/Study/demoTwo/TestFour.dart';
@@ -39,6 +39,8 @@ final Map<String,Function> routes={
       '/TestTen':(context)=>TestTen(),
       '/TestEleven':(context)=>TestEleven(),
       '/TestTwelve':(context)=>TestTwelve(),
+      '/TestThirteen':(context)=>TestThirteen(),
+      '/TestFourteen':(context)=>TestFourteen(),
 };
 
 //固定写法

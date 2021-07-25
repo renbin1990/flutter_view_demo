@@ -25,9 +25,9 @@ class _CurrentTabState extends State<CurrentTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("flutter学习"),
-      ),
+      // appBar: AppBar(
+      //   title: Text("flutter学习"),
+      // ),
       body: _pageList[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
