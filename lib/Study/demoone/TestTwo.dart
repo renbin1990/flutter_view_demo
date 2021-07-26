@@ -126,7 +126,8 @@ class HomeContent extends StatelessWidget {
       body: Center(
         child: Container(
           child: Image.asset(
-            "assets/images/icon_5.webp",
+       //     "assets/images/icon_5.webp",
+            "assets/icon_5.webp",
             alignment: Alignment.bottomCenter, //设置图片位置
             //      color: Colors.cyan,         //设置图片显示属性
             colorBlendMode: BlendMode.color,
