@@ -80,8 +80,10 @@ class _SystemDataContentState extends State<SystemDataContent> {
     super.initState();
 
     print(_now);
-    print(_now.microsecondsSinceEpoch); //转换成时间戳  1627454464973662
-    print(DateTime.fromMillisecondsSinceEpoch(1627454464973662)); //时间戳转时间
+    var time = _now.microsecondsSinceEpoch;
+    print(time); //转换成时间戳  1627454464973662
+    var dateTime = DateTime.fromMillisecondsSinceEpoch(1627454464973662);
+    print(dateTime); //时间戳转时间
   }
 
   @override

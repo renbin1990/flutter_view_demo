@@ -7,6 +7,7 @@ import 'package:flutter_view_demo/Study/demoFour/pages/user/Login.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterFirst.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterSecond.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterThird.dart';
+import 'package:flutter_view_demo/Study/demoSix/TestEightteen.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestFifteen.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestSeventeen.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestSixteen.dart';
@@ -47,6 +48,7 @@ final Map<String,Function> routes={
       '/TestFifteen':(context)=>TestFifteen(),
       '/TestSixteen':(context)=>TestSixteen(),
       '/TestSeventeen':(context)=>TestSeventeen(),
+      '/TestEightteen':(context)=>TestEightteen(),
 };
 
 //固定写法

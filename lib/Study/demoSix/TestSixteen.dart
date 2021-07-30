@@ -91,7 +91,7 @@ class _FormContentState extends State<FormContent> {
       ),
       body: Padding(
         padding: EdgeInsets.all(20),
-        child: Column(
+        child: ListView(
           children: [
             TextField(),
             SizedBox(
@@ -400,7 +400,7 @@ class _blendContentState extends State<blendContent> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("学员信息等级系统"),
+        title: Text("学员信息上报系统"),
       ),
       body: Container(
         padding: EdgeInsets.all(10),

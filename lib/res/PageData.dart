@@ -66,5 +66,9 @@ List pageData = [
   {
     "title": '/TestSeventeen',
     "routes": '日期相关组件',
+  },
+  {
+    "title": '/TestEightteen',
+    "routes": '轮播图',
   }
 ];
