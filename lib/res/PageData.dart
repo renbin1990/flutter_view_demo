@@ -70,5 +70,9 @@ List pageData = [
   {
     "title": '/TestEightteen',
     "routes": '轮播图',
+  },
+  {
+    "title": '/TestNineteen',
+    "routes": 'Dialog弹窗',
   }
 ];
