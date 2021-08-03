@@ -7,6 +7,10 @@ import 'package:flutter_view_demo/Study/demoFour/pages/user/Login.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterFirst.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterSecond.dart';
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterThird.dart';
+import 'package:flutter_view_demo/Study/demoSeven/NewInfo.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TestTwenty.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYTwo.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYone.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestEightteen.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestFifteen.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestNineteen.dart';
@@ -51,6 +55,11 @@ final Map<String,Function> routes={
       '/TestSeventeen':(context)=>TestSeventeen(),
       '/TestEightteen':(context)=>TestEightteen(),
       '/TestNineteen':(context)=>TestNineteen(),
+      '/TestTwenty':(context)=>TestTwenty(),
+      '/TestTwenty':(context)=>TestTwenty(),
+      '/TesttwentYone':(context)=>TesttwentYone(),
+      '/NewInfo':(context,{arguments})=>NewInfo(arguments:arguments),
+      '/TesttwentYTwo':(context)=>TesttwentYTwo(),
 };
 
 //固定写法

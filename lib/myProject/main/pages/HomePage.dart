@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         controller: _tabController,
         children: [
           ListView(
-            children: pageData.map((e){
+            children: pageDataOne.map((e){
               return Card(
                 margin: EdgeInsets.all(5),
                 child: ListTile(
@@ -111,10 +111,19 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
               );
             }).toList(),
           ),
-          Container(
-            child: Text("组件二"),
-            alignment: Alignment.center,
-          )
+          ListView(
+            children: pageDataTwo.map((e){
+              return Card(
+                margin: EdgeInsets.all(5),
+                child: ListTile(
+                  title: Text(e["routes"]),
+                  onTap: (){
+                    Navigator.pushNamed(context, e["title"]);
+                  },
+                ),
+              );
+            }).toList(),
+          ),
         ],
       ),
     );
