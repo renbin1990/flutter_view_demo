@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
@@ -76,7 +77,8 @@ class _NewInfoState extends State<NewInfo> {
                   // text that renders h1 elements will be red
                   "h1": Style(color: Colors.red),
                   "p": Style(fontSize: FontSize.large)
-                })
+                }, tagsList: Html.tags..remove(Platform.isAndroid ? "iframe" : "video")
+                )
               ],
             ),
     );

@@ -21,6 +21,12 @@ class _TesttwentYoneState extends State<TesttwentYone> {
   @override
   void initState() {
     super.initState();
+    Map map ={"name":"张三","age":20};
+    String jsonData = '{"name":"李四","age":21}';
+
+    print(json.encode(map));    //map转json
+    print(json.decode(jsonData));   //jaon 字符串转map
+
     _getData();
 
     _scrollcontroller.addListener(() {

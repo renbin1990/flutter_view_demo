@@ -56,7 +56,6 @@ final Map<String,Function> routes={
       '/TestEightteen':(context)=>TestEightteen(),
       '/TestNineteen':(context)=>TestNineteen(),
       '/TestTwenty':(context)=>TestTwenty(),
-      '/TestTwenty':(context)=>TestTwenty(),
       '/TesttwentYone':(context)=>TesttwentYone(),
       '/NewInfo':(context,{arguments})=>NewInfo(arguments:arguments),
       '/TesttwentYTwo':(context)=>TesttwentYTwo(),
