@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_view_demo/res/ShowToast.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class TestTwenty extends StatefulWidget {
@@ -55,18 +56,6 @@ class _TestTwentyState extends State<TestTwenty> {
     }
   }
 
-
-  void showToast(String data){
-    Fluttertoast.showToast(
-        msg: data,
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.BOTTOM,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.black,
-        textColor: Colors.white,
-        fontSize: 16.0
-    );
-  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

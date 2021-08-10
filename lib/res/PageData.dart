@@ -87,5 +87,17 @@ List pageDataTwo = [
   },{
     "title": '/TesttwentYTwo',
     "routes": '加载网页',
+  },{
+    "title": '/TesttwentYThree',
+    "routes": '获取设备信息',
+  },{
+    "title": '/TesttwentYFour',
+    "routes": '权限申请',
+  },{
+    "title": '/TesttwentYFive',
+    "routes": '拍照相册',
+  },{
+    "title": '/TesttwentYSix',
+    "routes": '视频播放',
   },
 ];

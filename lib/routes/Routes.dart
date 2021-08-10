@@ -9,6 +9,10 @@ import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterSecond.dart'
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterThird.dart';
 import 'package:flutter_view_demo/Study/demoSeven/NewInfo.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TestTwenty.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYFive.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYFour.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYSix.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYThree.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYTwo.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYone.dart';
 import 'package:flutter_view_demo/Study/demoSix/TestEightteen.dart';
@@ -59,6 +63,11 @@ final Map<String,Function> routes={
       '/TesttwentYone':(context)=>TesttwentYone(),
       '/NewInfo':(context,{arguments})=>NewInfo(arguments:arguments),
       '/TesttwentYTwo':(context)=>TesttwentYTwo(),
+      '/TesttwentYThree':(context)=>TesttwentYThree(),
+      '/TesttwentYFour':(context)=>TesttwentYFour(),
+      '/TesttwentYFive':(context)=>TesttwentYFive(),
+      '/TesttwentYSix':(context)=>TesttwentYSix(),
+      '/LocationVideoPlay':(context,{arguments})=>LocationVideoPlay(arguments:arguments),
 };
 
 //固定写法

@@ -47,8 +47,17 @@ dependencies:
   dio: ^4.0.0
   flutter_html: ^2.1.1
   webview_flutter: ^2.0.10
+#  获取设备信息
+  device_info_plus: ^2.1.0
+#动态权限申请
+  permission_handler: ^8.1.4+2
+#选择相册
+  image_picker: ^0.8.3+2
+#  视频播放
   video_player: ^2.1.12
+  chewie: ^1.2.2
 
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
