@@ -56,8 +56,13 @@ dependencies:
 #  视频播放
   video_player: ^2.1.12
   chewie: ^1.2.2
+#网络状态监听
+  connectivity_plus: ^1.0.6
+#  数据存储
+  shared_preferences: ^2.0.6
+#扫码
+  qr_code_scanner: ^0.5.2
 
-  
 dev_dependencies:
   flutter_test:
     sdk: flutter

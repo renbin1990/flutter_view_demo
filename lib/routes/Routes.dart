@@ -9,8 +9,10 @@ import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterSecond.dart'
 import 'package:flutter_view_demo/Study/demoFour/pages/user/RegisterThird.dart';
 import 'package:flutter_view_demo/Study/demoSeven/NewInfo.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TestTwenty.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYEight.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYFive.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYFour.dart';
+import 'package:flutter_view_demo/Study/demoSeven/TesttwentYSeven.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYSix.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYThree.dart';
 import 'package:flutter_view_demo/Study/demoSeven/TesttwentYTwo.dart';
@@ -68,6 +70,8 @@ final Map<String,Function> routes={
       '/TesttwentYFive':(context)=>TesttwentYFive(),
       '/TesttwentYSix':(context)=>TesttwentYSix(),
       '/LocationVideoPlay':(context,{arguments})=>LocationVideoPlay(arguments:arguments),
+      '/TesttwentYSeven':(context)=>TesttwentYSeven(),
+      '/TesttwentYEight':(context)=>TesttwentYEight(),
 };
 
 //固定写法
